@@ -264,7 +264,7 @@ body{
 
 }
 
-@media (max-width){
+@media (max-width:641px){
     body{
         font-size: 12px;
     }
@@ -276,8 +276,25 @@ body{
     .main h3{
         font-size: 1.4em;
     }
+
+    .footer .social-icons a{
+        font-size: 1em;
+    }
+    .footer .footer-title{
+        font-size: 1em;
+        font-weight: 600;
+    }
 }
 
-@media (max-width){
-    
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+    .footer .social-icons a{
+        font-size: 1em;
+    }
+    .footer .footer-title{
+        font-size: 1em;
+        font-weight: 600;
+    }
 }
