@@ -215,3 +215,69 @@ section{
     font-size:1.3em;
     padding-right: 12px;
 }
+
+body{
+    height: 400hv;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #db1d5c;
+}
+
+@media (max-width:1023px){
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 1em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width){
+    body{
+        font-size: 12px;
+    }
+
+    .main h2{
+        font-size: 0.8em;
+    }
+
+    .main h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width){
+    
+}
