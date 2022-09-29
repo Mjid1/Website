@@ -22,7 +22,7 @@ header{
     color: crimson;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 
 .navigation a{
@@ -111,10 +111,10 @@ section{
 }
 .card{
     background-color: #fff;
-    width: 19.25em;
+    width: 16em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
     margin: 10px;
     transition: 0.7s ease;
 }
@@ -147,10 +147,10 @@ section{
     background-color: #fff;
     border: 1px solid #fff;
     min-height: 14em;
-    width: 23em;
+    width: 20em;
     overflow: hidden;
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
     transition: 0.7s ease;
 }
 .project-card:hover{
@@ -180,6 +180,7 @@ section{
     margin-top: 10px;
 }
 .more-details{
+    font-size: small;
     text-decoration: none;
     color: crimson;
 }
@@ -195,7 +196,7 @@ section{
 .contacts .info p{
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .footer{
     background-color:#000016;
